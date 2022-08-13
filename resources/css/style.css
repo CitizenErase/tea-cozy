@@ -1,0 +1,148 @@
+html {
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  background-color: black;
+  text-align: center;
+}
+
+header {
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  z-index: 1;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header .logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+header img {
+  max-height: 50px;
+  width: auto;
+}
+
+header nav {
+  padding-right: 10px;
+}
+
+header li {
+  display: inline-block;
+  padding-left: 30px;
+}
+
+header a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+main {
+  position: relative;
+  top: 69px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#mission {
+  height: 700px;
+  width: auto;
+  background-image: url('../images/img-mission-background.jpg');
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+#mission .header {
+  background-color: black;
+}
+
+.header {
+  width: 100%;
+  line-height: 1.6;
+}
+
+.header h2 {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.header h4 {
+  font-weight: bold;
+}
+
+#featured-tea .container {
+  width: 1000px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#featured-tea figure {
+  padding: 10px;
+  line-height: 1.6;
+  font-weight: bold;
+}
+
+#featured-tea img {
+  max-height: 200px;
+  width: auto;
+}
+
+#locations {
+  height: 700px;
+  width: auto;
+  background-image: url('../images/img-locations-background.jpg');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+#locations .header {
+  position: absolute;
+  margin-bottom: 360px;
+}
+
+.location {
+  width: 300px;
+  height: 300px;
+  margin: 0 20px;
+  background-color: black;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+footer .header {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .header h2 {
+  line-height: 2.4;
+}
+
+footer .copyright {
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
